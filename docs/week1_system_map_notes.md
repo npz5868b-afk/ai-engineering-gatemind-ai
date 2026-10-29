@@ -2,7 +2,7 @@
 
 **Activity:** Topic 1 Lab, Part B (same group as Part A)  
 **System:** ChatGPT (OpenAI)  
-**Artifact:** Conceptual system map produced by the group, accompanied by an engineering interpretation and reflection.
+**Artifact:** Conceptual system map produced by the group, accompanied by optional engineering analysis. The lecturer has waived the reflection requirement.
 
 > **Scope:** This map uses observable behaviour from the Part A test session plus explicitly identified *assumed components*. It does **not** claim access to OpenAI's actual proprietary system architecture.
 
@@ -45,7 +45,7 @@ The group identified **six** plausible failure scenarios (the rubric requires at
 
 **Why this is important:** Separating an observed weakness (F2, incomplete scope clarity related to F6) from hypothetical future failure modes prevents treating a conceptual architecture as evidence of real incidents.
 
-## Reflection — Part B
+## Optional engineering interpretation (reflection not required)
 
 **Question:** Which component or interaction has the most “what could go wrong?” annotations? What does that suggest about where engineering effort should be concentrated? Link the answer to Topic 1 quality dimensions.
 
@@ -62,7 +62,7 @@ This conclusion identifies where a conceptual design should concentrate engineer
 - [x] Lab colour convention followed
 - [x] Observed behaviour separated from assumed components
 - [x] Six failure points with impacts (at least five required)
-- [x] Reflection answers question and ties to quality dimensions
+- [x] Optional engineering interpretation retained; **reflection waived by lecturer**
 - [ ] Verify formal PNG and editable source are present under `docs/` on GitHub
 
 **Note:** The visual diagram was supplied by the group. Supporting notes here make component-to-failure mappings clearer; they do not replace the diagram itself.
