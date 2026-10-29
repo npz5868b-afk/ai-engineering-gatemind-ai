@@ -70,7 +70,7 @@ Residents who need understandable context about door access, and academic evalua
 2. **[P2] NIST IR 8259A — IoT Device Cybersecurity Capability Core Baseline** (2020): https://doi.org/10.6028/NIST.IR.8259A. **Design use:** Privacy/security requirements for IoT device access, software/data protection and cybersecurity state reporting. **Scope:** Engineering guidance, *not* labeled sensor records.
 3. **[P3] eSense Smart Home dataset documentation** (public PDF accompanying [D3]): https://zenodo.org/records/10223646. **Data-documentation use:** Interpret sensor-trigger descriptions, collection configuration and event-log format. **Scope:** Dataset metadata, not an independent second dataset.
 
-**Important lecturer-alignment note:** The Topic 1 lab asks for **2–3 publicly available documents as data sources**, reflecting its document-grounded EduAdvisor example. GateMind uses **sensor-event records as model inputs**, while [P1–P3] are real public documents used for engineering requirements and data interpretation. **These are distinct roles.** Lecturer confirmation remains necessary that this FYP-aligned adaptation satisfies Part C; no claim of fully document-grounded training is made.
+**Data-source interpretation for the FYP-aligned assignment:** The lecturer instructed students to continue their FYP in Part C. GateMind is a sensor-based classifier rather than a document-grounded Q&A assistant. The public documents [P1–P3] inform requirements and sensor-data definitions, while the public datasets [D1–D3] support ambient-event feasibility work. Final smart-lock security labels will be created through consented prototype scenarios. These sources have different roles and are not represented as interchangeable training inputs.
 
 ### Source-to-feature mapping (proposed; not yet implemented)
 | Signal | Public dataset feasibility | Prototype-specific source |
@@ -102,5 +102,3 @@ EduAdvisor uses institutional PDFs as retrieval context to generate question-ans
 - [R5] Winterberger, S., An, D., Biallas, M., & Paice, A. (2025). *Smart home environment data across 4 European countries.* Data in Brief, 60, 111636. https://doi.org/10.1016/j.dib.2025.111636
 - [P1] NIST (2025). *SP 800-63B-4: Digital Identity Guidelines — Authentication and Authenticator Management.* https://doi.org/10.6028/NIST.SP.800-63B-4
 - [P2] NIST (2020). *IR 8259A: IoT Device Cybersecurity Capability Core Baseline.* https://doi.org/10.6028/NIST.IR.8259A
-
-**Week 1 completion check:** [x] Problem backed by cited studies; [x] ≥3 initial related works; [x] objective/engineering gap; [x] ≥2 real public sensor datasets; [x] ≥2 public documents with clear roles; [ ] lecturer confirmation of the *documents-as-data* condition; [ ] actual prototype data and empirical evaluation.
