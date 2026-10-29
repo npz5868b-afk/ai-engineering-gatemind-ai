@@ -60,7 +60,16 @@ These are proposed labels; their operational definitions and feasible sensor evi
 | [XGBoost (Chen & Guestrin, 2016)](https://doi.org/10.1145/2939672.2939785) | Feature-level fusion | Robustness under missing/noisy inputs |
 | [GRU (Cho et al., 2014)](https://arxiv.org/abs/1406.1078) | Optional sequence model | Data volume and latency |
 
-These two papers are **method references**, not evidence of prior smart-lock outcomes. Application-specific related work is pending verification.
+Four smart-home/sensor studies, including a behavior-based authentication study and a sensor-fault survey, are catalogued in the [research evidence register](docs/week1_references_and_data_sources.md). XGBoost and GRU are **method references**, not smart-lock outcome studies.
+
+### Smart-home studies and research evidence
+
+- [Amraoui & Zouari (2022)](https://doi.org/10.1007/s10207-021-00571-6) — behavior-based smart-home authentication
+- [ElHady & Provost (2018)](https://doi.org/10.3390/s18071991) — systematic survey of sensor failures
+- [P & Plötz (2024)](https://doi.org/10.3390/s24123944) — graph-guided activity recognition with sensor robustness
+- [Cook et al. (2013)](https://doi.org/10.1109/MC.2012.328) — CASAS smart-home sensor platform
+
+See [Part C scope](docs/week1_project_scope.md) for citations, the precise research gap and study limitations.
 
 ## Engineering Gap
 Investigate reliable access-event classification under **missing or conflicting sensor signals**, using reproducible baselines and measurable failure scenarios. Novelty claims are provisional until a literature review is completed.
@@ -74,11 +83,20 @@ Investigate reliable access-event classification under **missing or conflicting 
 Smart-home residents and prototype security-system evaluators.
 
 ## Data Sources and Evidence
-- Planned: consent-based prototype sensor-event logs (not public).
-- [Espressif ESP32 documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/) — technical reference.
-- [XGBoost documentation](https://xgboost.readthedocs.io/) — technical reference.
 
-> **Course compliance checkpoint:** Topic 1 asks for 2–3 public **documents as data sources**. The current sensor-event FYP does not yet meet that requirement; confirm the allowed alternative with the lecturer. Do not misrepresent technical documentation as training data.
+**Public ambient-event datasets (for sensor-pipeline and robustness feasibility, not complete security-event training):**
+- [CASAS Smart Home: Aruba, Cairo, Milan, Tulum](https://doi.org/10.5281/zenodo.17180309) — PIR and door-event data.
+- [Smart Home Environment Data Across Four European Countries](https://doi.org/10.5281/zenodo.14243471) — real household PIR and door contacts.
+- [eSense PIR Smart Home](https://doi.org/10.5281/zenodo.10223646) — PIR transitions and dataset documentation.
+
+**Public documents for engineering requirements/data interpretation:**
+- [NIST SP 800-63B-4](https://doi.org/10.6028/NIST.SP.800-63B-4) — digital authentication guidance.
+- [NIST IR 8259A](https://doi.org/10.6028/NIST.IR.8259A) — IoT device cybersecurity baseline.
+- [eSense documentation](https://zenodo.org/records/10223646) — sensor-event schema/collection reference.
+
+**Full provenance & academic references:** [Research sources and dataset register](docs/week1_references_and_data_sources.md) and [Data README](data/README.md).
+
+> **Course compliance checkpoint:** Topic 1 asks for 2–3 public **documents as data sources**. GateMind's primary model inputs remain sensor events, with documents used for engineering requirements and data interpretation. **Lecturer approval of this adaptation remains necessary.** The public datasets have no complete PIN/fingerprint/face-security labels, so final supervised security-event evaluations require separately labeled, consented lab scenarios.
 
 ## Responsible AI and Safety
 Privacy-first collection, informed consent, minimal biometric retention, uncertainty-aware alerts and explicit missing-sensor testing. Experimental AI event labels must **not** override the lock's safe credential-based authorization logic.
@@ -88,7 +106,7 @@ Privacy-first collection, informed consent, minimal biometric retention, uncerta
 part-a/      Part A guide (group analysis)
 part-b/      Part B guide (group system map)
 part-c/      Part C guide (individual FYP scope)
-docs/        Official Week 1 deliverables
+docs/        Official Week 1 deliverables + research register
 data/        Dataset documentation and safe synthetic samples
 src/         Implementation
 notebooks/   Experiments
@@ -106,7 +124,8 @@ prompts/     Prompt artifacts, if used
 - [x] [Initial individual project scope](docs/week1_project_scope.md)
 - [x] [Group observation sheet](docs/week1_observation_sheet.md) — uploaded; A3 reflection pending
 - [ ] Group conceptual map (`docs/week1_system_map.png`)
-- [ ] Verified evidence and source compliance
+- [x] Research evidence, related studies and dataset documentation added
+- [ ] Confirm lecturer acceptance of document-source adaptation
 - [ ] Submit repository URL to course portal
 
 ## Repository Hygiene
