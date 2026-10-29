@@ -13,7 +13,7 @@ The lab is organized into three distinct activities. **Part A and Part B are gro
 
 | Part | Activity | Who | Guide | Official deliverable | Status |
 |---|---|---|---|---|---|
-| **A** | Analyse an existing AI system | Group | [Part A guide](part-a/README.md) | `docs/week1_observation_sheet.md` | Awaiting teammates |
+| **A** | Analyse an existing AI system | Group | [Part A guide](part-a/README.md) | [Observation sheet](docs/week1_observation_sheet.md) | Uploaded; reflection pending |
 | **B** | Draw a conceptual AI system map | Group | [Part B guide](part-b/README.md) | `docs/week1_system_map.png` | Awaiting teammates |
 | **C** | Scope GateMind AI and set up GitHub | Individual | [Part C guide](part-c/README.md) | [`docs/week1_project_scope.md`](docs/week1_project_scope.md), root `README.md` and repository URL | Draft complete; references pending |
 
@@ -104,7 +104,7 @@ prompts/     Prompt artifacts, if used
 
 ## Week 1 Checklist
 - [x] [Initial individual project scope](docs/week1_project_scope.md)
-- [ ] Group observation sheet (`docs/week1_observation_sheet.md`)
+- [x] [Group observation sheet](docs/week1_observation_sheet.md) — uploaded; A3 reflection pending
 - [ ] Group conceptual map (`docs/week1_system_map.png`)
 - [ ] Verified evidence and source compliance
 - [ ] Submit repository URL to course portal
