@@ -55,14 +55,6 @@ The engineering priorities are therefore **response-grounding and factual valida
 
 This conclusion identifies where a conceptual design should concentrate engineering effort; it is **not** a claim that the team measured internal failure frequencies or implemented those mechanisms.
 
-## Submission quality check
+## Artifact Notes
 
-- [x] Same assigned AI system as Part A (ChatGPT)
-- [x] Components and information flow shown
-- [x] Lab colour convention followed
-- [x] Observed behaviour separated from assumed components
-- [x] Six failure points with impacts (at least five required)
-- [x] Optional engineering interpretation retained; **reflection waived by lecturer**
-- [ ] Verify formal PNG and editable source are present under `docs/` on GitHub
-
-**Note:** The visual diagram was supplied by the group. Supporting notes here make component-to-failure mappings clearer; they do not replace the diagram itself.
+The group-authored diagram and editable source are included in `docs/`. The component-to-failure mapping above makes the six failure scenarios explicit. The extra engineering interpretation is optional; the lecturer has waived the separate reflection requirement.
