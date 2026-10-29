@@ -14,8 +14,8 @@ The lab is organized into three distinct activities. **Part A and Part B are gro
 | Part | Activity | Who | Guide | Official deliverable | Status |
 |---|---|---|---|---|---|
 | **A** | Analyse an existing AI system | Group | [Part A guide](part-a/README.md) | [Observation sheet](docs/week1_observation_sheet.md) | Uploaded; reflection pending |
-| **B** | Draw a conceptual AI system map | Group | [Part B guide](part-b/README.md) | `docs/week1_system_map.png` | Awaiting teammates |
-| **C** | Scope GateMind AI and set up GitHub | Individual | [Part C guide](part-c/README.md) | [`docs/week1_project_scope.md`](docs/week1_project_scope.md), root `README.md` and repository URL | Draft complete; references pending |
+| **B** | Draw a conceptual AI system map | Group | [Part B guide](part-b/README.md) | [System map PNG](docs/week1_system_map.png) | Uploaded with editable source and reflection |
+| **C** | Scope GateMind AI and set up GitHub | Individual | [Part C guide](part-c/README.md) | [Project scope](docs/week1_project_scope.md), root README and repository URL | Cited scope drafted; lecturer confirmation pending |
 
 **Important:** Part A and B should analyze the **group's assigned AI system**, which may be ChatGPT, YouTube/Spotify, or Claude—not automatically GateMind AI. Part C uses GateMind AI as directed by the lecturer.
 
@@ -46,7 +46,7 @@ Optional vibration event ──────────────────�
                           │
              Review / alert / audit log
 ```
-**Conceptual architecture only.** The internal system map required for the group activity will be added separately.
+**Conceptual architecture only.** The separate [Part B group system map](docs/week1_system_map.png) analyzes ChatGPT, not GateMind AI.
 
 ## Candidate Event Classes
 Authorized Entry · Visitor Knock · Repeated Failed Attempt · Suspicious Dwell · Tailgating Risk · Force Attempt
@@ -123,7 +123,7 @@ prompts/     Prompt artifacts, if used
 ## Week 1 Checklist
 - [x] [Initial individual project scope](docs/week1_project_scope.md)
 - [x] [Group observation sheet](docs/week1_observation_sheet.md) — uploaded; A3 reflection pending
-- [ ] Group conceptual map (`docs/week1_system_map.png`)
+- [x] [Group conceptual map PNG](docs/week1_system_map.png), [editable Draw.io source](docs/week1_system_map.drawio), and [failure-point reflection](docs/week1_system_map_notes.md)
 - [x] Research evidence, related studies and dataset documentation added
 - [ ] Confirm lecturer acceptance of document-source adaptation
 - [ ] Submit repository URL to course portal
