@@ -13,9 +13,9 @@ The lab is organized into three distinct activities. **Part A and Part B are gro
 
 | Part | Activity | Who | Guide | Official deliverable | Status |
 |---|---|---|---|---|---|
-| **A** | Analyse an existing AI system | Group | [Part A guide](part-a/README.md) | [Observation sheet](docs/week1_observation_sheet.md) | Uploaded; reflection waived by lecturer |
-| **B** | Draw a conceptual AI system map | Group | [Part B guide](part-b/README.md) | [System map PNG](docs/week1_system_map.png) | Uploaded with editable source; reflection not required |
-| **C** | Scope GateMind AI and set up GitHub | Individual | [Part C guide](part-c/README.md) | [Project scope](docs/week1_project_scope.md), root README and repository URL | Cited scope drafted; lecturer confirmation pending |
+| **A** | Analyse an existing AI system | Group | [Part A guide](part-a/README.md) | [Observation sheet](docs/week1_observation_sheet.md) | Uploaded — complete |
+| **B** | Draw a conceptual AI system map | Group | [Part B guide](part-b/README.md) | [System map PNG](docs/week1_system_map.png) | Uploaded — complete |
+| **C** | Scope GateMind AI and set up GitHub | Individual | [Part C guide](part-c/README.md) | [Project scope](docs/week1_project_scope.md), root README and repository URL | Cited scope prepared |
 
 **Important:** Part A and B should analyze the **group's assigned AI system**, which may be ChatGPT, YouTube/Spotify, or Claude—not automatically GateMind AI. Part C uses GateMind AI as directed by the lecturer.
 
@@ -96,7 +96,7 @@ Smart-home residents and prototype security-system evaluators.
 
 **Full provenance & academic references:** [Research sources and dataset register](docs/week1_references_and_data_sources.md) and [Data README](data/README.md).
 
-> **Course compliance checkpoint:** Topic 1 asks for 2–3 public **documents as data sources**. GateMind's primary model inputs remain sensor events, with documents used for engineering requirements and data interpretation. **Lecturer approval of this adaptation remains necessary.** The public datasets have no complete PIN/fingerprint/face-security labels, so final supervised security-event evaluations require separately labeled, consented lab scenarios.
+> **Data-source clarification:** Following the lecturer's instruction to continue the FYP, this sensor-based project uses public documents for requirements and data interpretation, public datasets for ambient-event feasibility, and consented prototype logs for the final security-event labels. The public datasets do not contain complete PIN/fingerprint/face-security labels.
 
 ## Responsible AI and Safety
 Privacy-first collection, informed consent, minimal biometric retention, uncertainty-aware alerts and explicit missing-sensor testing. Experimental AI event labels must **not** override the lock's safe credential-based authorization logic.
@@ -117,16 +117,16 @@ prompts/     Prompt artifacts, if used
 ## Weekly Progress
 | Week | Deliverable | Status |
 |---|---|---|
-| 1 | Observation sheet, conceptual map, project scope, README | In progress |
+| 1 | Observation sheet, conceptual map, project scope, README | Prepared — portal submission pending |
 | 2 | Refined requirements, architecture and evaluation criteria | Planned |
 
-## Week 1 Checklist
-- [x] [Initial individual project scope](docs/week1_project_scope.md)
-- [x] [Group observation sheet](docs/week1_observation_sheet.md) — uploaded; A3 reflection waived by lecturer
-- [x] [Group conceptual map PNG](docs/week1_system_map.png), [editable Draw.io source](docs/week1_system_map.drawio), and [optional failure-point analysis notes](docs/week1_system_map_notes.md)
-- [x] Research evidence, related studies and dataset documentation added
-- [ ] Confirm lecturer acceptance of document-source adaptation
-- [ ] Submit repository URL to course portal
+## Week 1 Submission Files
+
+- **Part A:** [Observation Sheet](docs/week1_observation_sheet.md)
+- **Part B:** [Conceptual AI System Map (PNG)](docs/week1_system_map.png) · [Editable Draw.io file](docs/week1_system_map.drawio) · [Optional engineering notes](docs/week1_system_map_notes.md)
+- **Part C:** [Individual Project Scope](docs/week1_project_scope.md) · [Research sources](docs/week1_references_and_data_sources.md)
+
+**Course portal submission:** Use the URL of this repository. The submission itself must be completed in the course portal.
 
 ## Repository Hygiene
 Never commit passwords, API keys, private biometric records, personal data or restricted/copyrighted documents. This repository is an engineering record, not proof of a production-ready lock.
