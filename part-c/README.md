@@ -2,7 +2,7 @@
 
 **Work mode:** Individual  
 **FYP project:** GateMind AI — Reliability-Aware Multimodal Smart-Lock Access Event Intelligence  
-**Status:** Evidence-backed preliminary scope, public datasets and source register uploaded; lecturer confirmation pending
+**Status:** Evidence-backed preliminary scope, public datasets and source register uploaded
 
 ## Official Week 1 deliverables
 - **[Project Scope — `docs/week1_project_scope.md`](../docs/week1_project_scope.md)** — revised with cited smart-home literature, public datasets and document-source comparison.
@@ -26,7 +26,7 @@
 
 ## Important open issues
 1. **Evidence & related work:** Initial application-specific sources, a sensor-failure survey and data-provenance notes have been added. Review the cited papers more deeply during FYP1 and do not claim their results are GateMind results.
-2. **Data-source requirement:** GateMind AI is a sensor-event project, whereas the lab specifies public documents as data sources. Confirm an acceptable adaptation with the lecturer rather than treating technical manuals as training datasets.
+2. **Data-source interpretation:** GateMind AI uses sensor records for AI experiments, public documents for engineering requirements, and public datasets for feasibility. The lecturer asked students to continue their FYP; these inputs are distinguished clearly rather than treating documents as sensor-training examples.
 3. **Project scope:** This is a semester AI Engineering record using the same FYP topic; do not overpromise completed hardware, trained models, or evaluation results in Week 1.
 
 ## GitHub setup
