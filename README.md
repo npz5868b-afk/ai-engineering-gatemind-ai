@@ -7,6 +7,18 @@
 
 > **Research question:** Can reliability-aware multimodal sensor fusion classify smart-lock access events more robustly than fixed rules when inputs are missing or contradictory?
 
+## Topic 1 Lab — Part A / B / C
+
+The lab is organized into three distinct activities. **Part A and Part B are group work; Part C is individual FYP scoping.** Each student's repository should still store the official deliverable files in `docs/`.
+
+| Part | Activity | Who | Guide | Official deliverable | Status |
+|---|---|---|---|---|---|
+| **A** | Analyse an existing AI system | Group | [Part A guide](part-a/README.md) | `docs/week1_observation_sheet.md` | Awaiting teammates |
+| **B** | Draw a conceptual AI system map | Group | [Part B guide](part-b/README.md) | `docs/week1_system_map.png` | Awaiting teammates |
+| **C** | Scope GateMind AI and set up GitHub | Individual | [Part C guide](part-c/README.md) | [`docs/week1_project_scope.md`](docs/week1_project_scope.md), root `README.md` and repository URL | Draft complete; references pending |
+
+**Important:** Part A and B should analyze the **group's assigned AI system**, which may be ChatGPT, YouTube/Spotify, or Claude—not automatically GateMind AI. Part C uses GateMind AI as directed by the lecturer.
+
 ## Overview
 GateMind AI explores contextual access-event intelligence for a custom smart-lock prototype. Instead of treating a single successful PIN, fingerprint or camera output as the whole story, it combines authentication results with nearby motion and door-state observations to classify access events. Its **AI contribution is reliability-aware event classification**, not inventing a new face-recognition model.
 
@@ -73,7 +85,10 @@ Privacy-first collection, informed consent, minimal biometric retention, uncerta
 
 ## Repository Structure
 ```text
-docs/        Week 1 observation, system map, project scope
+part-a/      Part A guide (group analysis)
+part-b/      Part B guide (group system map)
+part-c/      Part C guide (individual FYP scope)
+docs/        Official Week 1 deliverables
 data/        Dataset documentation and safe synthetic samples
 src/         Implementation
 notebooks/   Experiments
