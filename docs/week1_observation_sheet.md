@@ -132,11 +132,9 @@ For short or polysemous questions such as “Is Python good?”, the assistant c
 2. **Limitation:** Poor ambiguity handling in Test 3; scope clarity was also incomplete in Test 4.
 3. **Responsible AI:** Security misuse was appropriately blocked in Test 5, while inaccurate or overconfident task interpretation remains a potential user risk.
 
-### Reflection — complete **after listening to another group**
+### A3 Reflection — waived by lecturer
 
-**Lab question:** Compared with a recommendation system (e.g., YouTube/Spotify), which AI Engineering quality dimension differs most from conversational AI? Support the answer with **at least one actual observation from another group's presentation**.
-
-**Status:** **Pending group sharing.** The provided observation sheet does not contain another group's findings. Add the specific observation and the comparison **after the session**; do not invent one.
+The lecturer confirmed that the **reflection is not required** for this lab submission. No other group's presentation has been invented or reported.
 
 ---
 
