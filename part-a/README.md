@@ -1,7 +1,7 @@
 # Part A — Analyse Existing AI Systems
 
 **Work mode:** Group (4–5 students)  
-**Status:** Awaiting group observation and evidence
+**Status:** Observation sheet uploaded; A3 reflection pending
 
 ## Required work
 1. Examine the AI system assigned to the group (ChatGPT, YouTube/Spotify recommendations, or Claude).
@@ -12,11 +12,11 @@
 6. Complete the group observation sheet, share three findings, and write the reflection after group sharing.
 
 ## Official Week 1 deliverable
-**File:** [`docs/week1_observation_sheet.md`](../docs/week1_observation_sheet.md) (not uploaded yet)
+**File:** [`docs/week1_observation_sheet.md`](../docs/week1_observation_sheet.md) — uploaded (reviewed and formatted)
 
 The course document requires the observation sheet to be placed directly inside `docs/` in **each student's repository**. Do not move the official file into this Part A folder.
 
 ## Coordination
 - Group owns the observation and evidence. Do not claim unperformed tests or fabricate screenshots.
-- Once teammates finish, copy the reviewed observation sheet into `docs/week1_observation_sheet.md`.
+- The group's observation sheet has been uploaded. Complete the A3 reflection after hearing another group's actual findings.
 - Remove identifying or private information before committing publicly.
