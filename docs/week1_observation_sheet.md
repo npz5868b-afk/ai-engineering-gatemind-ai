@@ -132,9 +132,6 @@ For short or polysemous questions such as “Is Python good?”, the assistant c
 2. **Limitation:** Poor ambiguity handling in Test 3; scope clarity was also incomplete in Test 4.
 3. **Responsible AI:** Security misuse was appropriately blocked in Test 5, while inaccurate or overconfident task interpretation remains a potential user risk.
 
-### A3 Reflection — waived by lecturer
-
-The lecturer confirmed that the **reflection is not required** for this lab submission. No other group's presentation has been invented or reported.
 
 ---
 
