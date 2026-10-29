@@ -17,7 +17,7 @@ This folder is reserved for **non-sensitive, license-permitted data and dataset 
 - [NIST IR 8259A](https://doi.org/10.6028/NIST.IR.8259A) — IoT device security reference.
 - [eSense documentation, with D3](https://zenodo.org/records/10223646) — data collection and event schema reference.
 
-**Academic requirement:** The lecturer must approve whether these documents, used to inform requirements rather than train a document-grounded model, meet the specified document-source criterion.
+**Academic context:** Part C follows the lecturer's instruction to use the FYP. Public documents are cited for requirements and data interpretation, while sensor records are proposed for AI experiments. These roles are kept distinct.
 
 ## Proposed acquisition plan (not yet executed)
 1. Inspect dataset licenses, data dictionaries, and columns.
