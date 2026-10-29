@@ -37,8 +37,8 @@ These are methods, not smart-lock application studies.
 | P2 | NIST IR 8259A (2020), IoT Device Cybersecurity Capability Core Baseline | https://doi.org/10.6028/NIST.IR.8259A | IoT protection, device security state and interface-access requirements | Requirements reference, not a labeled training dataset |
 | P3 | eSense Smart Home dataset's accompanying technical PDF | https://zenodo.org/records/10223646 | Actual data schema and PIR-trigger collection methodology | Documentation of D3, not an extra independent dataset |
 
-### Lecturer Approval Needed
-The Week 1 Topic 1 template asks for 2–3 **publicly available documents as data sources**. GateMind AI is not a document-grounded assistant. **Proposed adaptation:** use the three public documents as authoritative engineering input and provenance; use public sensor datasets D1–D3 for algorithm prototyping; use consented lab-generated events for the final supervised security-event labels. Seek explicit lecturer agreement that this satisfies the source requirement. If denied, adapt the scope rather than claim documents were model-training samples.
+### Source roles for FYP-aligned Part C
+The lecturer instructed students to use their FYP topic in Part C. GateMind AI is not a document-grounded assistant: public documents provide authoritative design requirements and data provenance; public sensor datasets D1–D3 support ambient-signal feasibility studies; consented lab-generated logs will provide the final security-event labels. The distinction is explicit; technical guidance is **not** described as training data.
 
 ## Proposed evaluation integrity
 
