@@ -25,6 +25,13 @@ GateMind AI explores contextual access-event intelligence for a custom smart-loc
 ## Problem Statement
 Authentication and physical door activity provide different signals. Missing, noisy and conflicting observations complicate access-event interpretation. GateMind AI investigates whether multimodal fusion can reduce false alerts and improve classification while keeping decision latency measurable.
 
+## Evidence of the Problem
+
+- **Sensor reliability:** Non-intrusive smart-home sensors can produce missed or spurious events. ElHady and Provost (2018) review sensor failure detection and fault-tolerance challenges ([Sensors, 18(7), 1991](https://doi.org/10.3390/s18071991)).
+- **Activity interpretation under incomplete signals:** P and Plötz (2024) investigate sensor-based activity recognition in smart homes, including challenges related to noisy, sparse or missing observations ([Sensors, 24(12), 3944](https://doi.org/10.3390/s24123944)).
+
+These papers support the research motivation, but do **not** prove that GateMind AI has already solved these problems. Detailed evidence, boundaries and related work are documented in the [Week 1 project scope](docs/week1_project_scope.md).
+
 ## Proposed System
 ```text
 Door-side camera (pretrained face / optional spoof scores) ─┐
@@ -115,10 +122,10 @@ prompts/     Prompt artifacts, if used
 ```
 
 ## Weekly Progress
-| Week | Deliverable | Status |
-|---|---|---|
-| 1 | Observation sheet, conceptual map, project scope, README | Prepared — portal submission pending |
-| 2 | Refined requirements, architecture and evaluation criteria | Planned |
+| Week | Focus | Deliverable | Status |
+|---|---|---|---|
+| W1 | Existing AI system analysis, system map and individual FYP scoping | Observation sheet, system map, project scope, README | Prepared; course portal submission pending |
+| W2 | Refine requirements, architecture and evaluation criteria | Requirements and evaluation plan | Planned |
 
 ## Week 1 Submission Files
 
