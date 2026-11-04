@@ -125,7 +125,7 @@ prompts/     Prompt artifacts, if used
 | Week | Focus | Deliverable | Status |
 |---|---|---|---|
 | W1 | Existing AI system analysis, system map and individual FYP scoping | Observation sheet, system map, project scope, README | Prepared; course portal submission pending |
-| W2 | Refine application scope, requirements, evaluation and V1 architecture | Requirements, evaluation criteria, ADR, editable architecture | Drafted; architecture PNG export pending |
+| W2 | Refine application scope, requirements, evaluation and V1 architecture | Requirements, evaluation criteria, ADR, editable architecture | Prepared; portal submission pending |
 
 ## Week 2 — Topic 2 Lab
 
@@ -135,9 +135,9 @@ This week's individual FYP-based specification builds on the [Week 1 GateMind pr
 |---|---|---|
 | **A** | Project framing; application scope; functional, non-functional, and Responsible AI requirements | [Requirements Specification](docs/week2_requirements.md) |
 | **B** | Test criteria; measurement methods; metrics and target thresholds linked to objectives | [Evaluation Criteria](docs/week2_evaluation_criteria.md) |
-| **C** | Requirements-driven V1 architecture, architecture decision records and traceability | [Decisions & Traceability](docs/week2_architecture_decisions.md) · [Editable Draw.io](docs/week2_architecture_v1.drawio) · [SVG Preview](docs/week2_architecture_v1.svg) |
+| **C** | Requirements-driven V1 architecture, architecture decision records and traceability | [V1 PNG Diagram](docs/week2_architecture_v1.png) · [Decisions & Traceability](docs/week2_architecture_decisions.md) · [Editable Draw.io](docs/week2_architecture_v1.drawio) |
 
-**Architecture image:** The V1 PNG is prepared for upload to `docs/week2_architecture_v1.png`. Until the image is confirmed in the repository, the required Week 2 submission is **not complete**.
+**Week 2 deliverables:** All four prescribed files are committed under `docs/`. The requirements contain **proposed, not achieved** evaluation targets. Submit this repository URL through the course portal when instructed.
 
 ## Week 1 Submission Files
 
