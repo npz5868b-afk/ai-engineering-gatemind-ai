@@ -1,7 +1,7 @@
 # GateMind AI
 ### Reliability-Aware Multimodal Smart-Lock Access Event Intelligence
 
-**UTM · AI Engineering · Topic 1 / Week 1**  
+**UTM · AI Engineering · Topic 1–2 / Week 1–2**  
 **Project type:** FYP-aligned AI System / Application Development  
 **Stage:** Scoping and conceptual design — not a deployed or validated security product
 
@@ -125,7 +125,19 @@ prompts/     Prompt artifacts, if used
 | Week | Focus | Deliverable | Status |
 |---|---|---|---|
 | W1 | Existing AI system analysis, system map and individual FYP scoping | Observation sheet, system map, project scope, README | Prepared; course portal submission pending |
-| W2 | Refine requirements, architecture and evaluation criteria | Requirements and evaluation plan | Planned |
+| W2 | Refine application scope, requirements, evaluation and V1 architecture | Requirements, evaluation criteria, ADR, editable architecture | Drafted; architecture PNG export pending |
+
+## Week 2 — Topic 2 Lab
+
+This week's individual FYP-based specification builds on the [Week 1 GateMind project scope](docs/week1_project_scope.md). Proposed requirements and numerical thresholds are **not yet tested or achieved**.
+
+| Part | Scope | Document |
+|---|---|---|
+| **A** | Project framing; application scope; functional, non-functional, and Responsible AI requirements | [Requirements Specification](docs/week2_requirements.md) |
+| **B** | Test criteria; measurement methods; metrics and target thresholds linked to objectives | [Evaluation Criteria](docs/week2_evaluation_criteria.md) |
+| **C** | Requirements-driven V1 architecture, architecture decision records and traceability | [Decisions & Traceability](docs/week2_architecture_decisions.md) · [Editable Draw.io](docs/week2_architecture_v1.drawio) · [SVG Preview](docs/week2_architecture_v1.svg) |
+
+**Architecture image:** The V1 PNG is prepared for upload to `docs/week2_architecture_v1.png`. Until the image is confirmed in the repository, the required Week 2 submission is **not complete**.
 
 ## Week 1 Submission Files
 
