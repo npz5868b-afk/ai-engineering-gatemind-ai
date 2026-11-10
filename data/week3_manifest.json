@@ -1,0 +1,19 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-10T23:05:51.091646+00:00",
+  "artifact_origin": "Equivalent local prototype execution; Colab notebook independently shows successful runtime and repeatability outputs.",
+  "records": [
+    {
+      "source": "topic3_dummy_datasets/06_timeseries/energy_readings_demo.csv",
+      "source_sha256": "6394aa3d01d35f4df5541b3dfdb9c12bd2be30c27e1e926faa8f0369e755c285",
+      "output": "data/processed/prepared_timeseries.csv",
+      "output_sha256": "8c458ce22711036d089c7b948e02e2be79c5f29e94a381597cb2f2bcb996c575",
+      "processing": "Parse timestamps; omit invalid times; stable chronological sort; preserve missing sensor reading; no resampling or imputation",
+      "input_rows": 6,
+      "output_rows": 6,
+      "invalid_timestamps": 0,
+      "missing_energy_kwh": 1,
+      "duplicate_rows": 0
+    }
+  ]
+}
