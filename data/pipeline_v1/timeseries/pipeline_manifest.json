@@ -1,0 +1,14 @@
+{
+  "pipeline_version": "week3-v1-timeseries",
+  "source_path": "topic3_dummy_datasets/06_timeseries/energy_readings_demo.csv",
+  "source_sha256": "6394aa3d01d35f4df5541b3dfdb9c12bd2be30c27e1e926faa8f0369e755c285",
+  "output_path": "data/pipeline_v1/timeseries/prepared_timeseries.csv",
+  "output_sha256": "8c458ce22711036d089c7b948e02e2be79c5f29e94a381597cb2f2bcb996c575",
+  "input_rows": 6,
+  "output_rows": 6,
+  "timestamp_column": "timestamp",
+  "processing": "Parse timestamps; omit invalid times; stable chronological sort; preserve missing sensor reading; no resampling or imputation",
+  "run_status": "PASS (local prototype execution, not Google Colab)",
+  "generated_at_utc": "2026-11-10T23:05:51.092181+00:00",
+  "artifact_origin": "Equivalent local prototype execution; Colab notebook has separate successful run outputs."
+}
