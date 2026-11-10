@@ -1,7 +1,7 @@
 # GateMind AI
 ### Reliability-Aware Multimodal Smart-Lock Access Event Intelligence
 
-**UTM · AI Engineering · Topic 1–2 / Week 1–2**  
+**UTM · AI Engineering · Topics 1–3 / Weeks 1–3**  
 **Project type:** FYP-aligned AI System / Application Development  
 **Stage:** Scoping and conceptual design — not a deployed or validated security product
 
@@ -113,10 +113,10 @@ Privacy-first collection, informed consent, minimal biometric retention, uncerta
 part-a/      Part A guide (group analysis)
 part-b/      Part B guide (group system map)
 part-c/      Part C guide (individual FYP scope)
-docs/        Official Week 1 deliverables + research register
-data/        Dataset documentation and safe synthetic samples
+docs/        Week 1–3 deliverables and research evidence
+data/        Dataset provenance, prepared outputs and pipeline manifests
 src/         Implementation
-notebooks/   Experiments
+notebooks/   Colab notebooks and experiments
 evaluation/  Metrics, ablations, reports
 prompts/     Prompt artifacts, if used
 ```
@@ -126,6 +126,7 @@ prompts/     Prompt artifacts, if used
 |---|---|---|---|
 | W1 | Existing AI system analysis, system map and individual FYP scoping | Observation sheet, system map, project scope, README | Prepared; course portal submission pending |
 | W2 | Refine application scope, requirements, evaluation and V1 architecture | Requirements, evaluation criteria, ADR, editable architecture | Prepared; portal submission pending |
+| W3 | Time-series ingestion, preparation, validation and provenance | Colab notebook, inventory, diagram, decisions, prepared CSV and manifests | Colab execution verified; GitHub artifacts committed |
 
 ## Week 2 — Topic 2 Lab
 
@@ -138,6 +139,18 @@ This week's individual FYP-based specification builds on the [Week 1 GateMind pr
 | **C** | Requirements-driven V1 architecture, architecture decision records and traceability | [V1 PNG Diagram](docs/week2_architecture_v1.png) · [Decisions & Traceability](docs/week2_architecture_decisions.md) · [Editable Draw.io](docs/week2_architecture_v1.drawio) |
 
 **Week 2 deliverables:** All four prescribed files are committed under `docs/`. The requirements contain **proposed, not achieved** evaluation targets. Submit this repository URL through the course portal when instructed.
+
+## Week 3 — Topic 3 Lab: Data Engineering
+
+**Selected pathway:** F — Time-series (course-provided synthetic `energy_readings_demo.csv`). This is a data-engineering practice example, **not** a trained GateMind smart-lock event classifier. The Google Colab notebook includes saved outputs from all eight code cells, including `REPEATABILITY: PASS` and `PROVENANCE: PASS`.
+
+| Lab part | Evidence | Link |
+|---|---|---|
+| **A — Start with the Data** | Source identity, data-needs traceability and inspection of two representative subsets | [Data Inventory](docs/week3_data_inventory.md) |
+| **B — Prepare the Data** | Timestamp parsing and stable sorting, missingness preservation, validated CSV and lineage | [Prepared CSV](data/processed/prepared_timeseries.csv) · [Lineage manifest](data/week3_manifest.json) |
+| **C — Executable V1 Pipeline** | Executed notebook, diagram, architecture/stage decisions, repeatability and run outputs | [Notebook](notebooks/week3_pipeline.ipynb) · [Diagram](docs/week3_pipeline_diagram.png) · [Decisions](docs/week3_pipeline_decisions.md) · [Run manifest](data/pipeline_v1/timeseries/pipeline_manifest.json) · [Run output](data/pipeline_v1/timeseries/prepared_timeseries.csv) |
+
+**Execution provenance:** The notebook was genuinely run in Colab. The separately committed prepared CSV and JSON manifests are samples produced by an equivalent earlier local execution with the same source/output fingerprints; they are not represented as downloads from the Colab runtime. No model or physical smart-lock performance is claimed.
 
 ## Week 1 Submission Files
 
