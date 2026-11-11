@@ -7,9 +7,9 @@
 
 | Requirement linkage | Required data/features | Practice source & fit | Limitation |
 |---|---|---|---|
-| O1 / FR1–FR2 | Timestamped multimodal events and sensor-channel identity | S01 tests parsing of `timestamp` and `sensor_id` | Energy values are not lock events; only one channel represented |
-| O3 / NFR reliability | Stable chronology, missingness flags, reproducible sample | S01 demonstrates unsorted time points and one missing reading | Cannot measure biometric or security-event correctness |
-| RAI privacy / provenance | Explicit source identity, rights and SHA-256 | Source metadata and hashes recorded | Synthetic practice does not validate a real consent workflow |
+| O1 / FR1, FR2 | Timestamped event schema, sensor identity and reliable chronology | S01 contains `timestamp` and `sensor_id`; validates parsing and stable ordering | Course energy readings are a *structural proxy*, not actual PIN/PIR/door-contact events |
+| O1 / NFR4; O3 / NFR5 | Traceable timestamps, preserved missingness and deterministic replay | Source has out-of-order timestamps and one missing `energy_kwh`; prepared export and repeated run preserve shape and output hash | Does not demonstrate future accuracy, latency or smart-lock sensor robustness |
+| O1 / RAI1 | Minimise sensitive data and document authorised provenance | No biometric data or credential identifiers appear in the dummy CSV; access rights and SHA-256 recorded | Synthetic data cannot establish a valid consent procedure for future human participants |
 
 ## Source inventory
 
